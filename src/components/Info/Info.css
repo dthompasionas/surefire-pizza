@@ -1,0 +1,59 @@
+.left-side, .right-side {
+    height: 500px;
+    width: 100%;
+
+}
+
+.left-side{
+    flex-direction: column;
+   
+}
+
+@media screen and (min-width: 768px) {
+    .left-side {
+        border-right: solid #7d0000 2px;
+    }
+   
+}
+
+ 
+
+.right-side{
+    flex-direction: column;
+}
+
+.store-hours {
+    text-align: center;
+}
+
+.store-hours-btn {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.contact-btn {
+    border: none;
+    background: #7d0000;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.order-btn {
+    border: none;
+    background: #7d0000;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.right-side img {
+    
+    width: 450px;
+    height: 400px;
+}
+
