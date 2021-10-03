@@ -16,14 +16,55 @@
    
 }
 
+.store-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background: #000;
+}
+
+.card-info h3 {
+    color: #fff;
+}
+
+
+
  
 
 .right-side{
     flex-direction: column;
 }
 
+.info-slider {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-control-prev {
+    border-radius: 10px 0 0 10px;
+}
+
+.carousel-control-prev:hover {
+    background: black;
+    
+}
+
+.carousel-control-next {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-control-next:hover {
+    background: black;
+}
+
 .store-hours {
-    text-align: center;
+    text-align: start;
+    color: #fff;
 }
 
 .store-hours-btn {
@@ -40,7 +81,7 @@
     width: 150px;
     height: 40px;
     border-radius: 30px;
-}
+}  
 
 .order-btn {
     border: none;
