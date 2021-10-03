@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
-    background: #000;
+    background: #212529;
 }
 
 .card-info h3 {
@@ -81,7 +81,13 @@
     width: 150px;
     height: 40px;
     border-radius: 30px;
-}  
+} 
+
+.contact-btn:hover {
+    background: #fff;
+    color: #7d0000;
+    transition: 0.3s ease;
+}
 
 .order-btn {
     border: none;
@@ -90,6 +96,13 @@
     width: 150px;
     height: 40px;
     border-radius: 30px;
+    
+}
+
+.order-btn:hover {
+    background: #fff;
+    color: #7d0000;
+    transition: 0.3s ease;
 }
 
 .right-side img {

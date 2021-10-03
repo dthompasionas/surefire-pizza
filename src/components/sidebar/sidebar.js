@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {FaTimes} from 'react-icons/fa';
 import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkScroll } from 'react-scroll';
 // import { NavBtnLink } from '../Navbar/Navbar';
 
 export const SidebarContainer = styled.aside`
@@ -9,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #212529;
     display: grid;
     align-items: center;
     top: 0;
@@ -48,7 +47,7 @@ export const SidebarMenu = styled.ul`
     }
 `;
 
-export const SidebarLink = styled(LinkScroll)`
+export const SidebarLink = styled(LinkR)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +72,7 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #0d0d0d;
+    background: #212529;
     white-space: nowrap;
     padding: 16px 64px;
     color: #fff;

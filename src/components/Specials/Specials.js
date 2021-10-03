@@ -43,6 +43,7 @@ export const MenuButton = styled.button`
         color: #7d0000;
         background: #fff;
         box-shadow: gray 2px 5px 10px;
+        transition: 0.3s ease;
         
     }
 

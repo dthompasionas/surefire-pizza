@@ -1,0 +1,42 @@
+
+
+.socials {
+    background: #7d0000;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fb {
+    width: 30px;
+    height: 28px;
+    
+}
+.fb:hover {
+    background: #5f0000;
+}
+
+.twitter {
+    width: 30px;
+    height: 28px;
+}
+.twitter:hover {
+    background: #5f0000;
+}
+
+.insta {
+    width: 30px;
+    height: 28px;
+}
+.insta:hover {
+    background: #5f0000;
+}
+
+.underline {
+    color: #7d0000;
+    width: 125px;
+    height: 5px;
+}
+
