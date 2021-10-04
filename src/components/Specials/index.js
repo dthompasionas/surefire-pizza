@@ -6,7 +6,7 @@ import ImageSlider from '../Specials/Slider';
 
 const Specials = () => {
     return (
-        <div className='container mt-5 carousel'>
+        <div className='container mt-5 car-cont carousel '>
             <SectionTitle>Specials</SectionTitle>
             <ImageSlider/>
             <MenuButtonContainer>

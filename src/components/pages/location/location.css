@@ -1,0 +1,51 @@
+.locaton-sec {
+    padding: 30px 0;
+
+}
+
+.location-card {
+    padding: 30px;
+    
+}
+
+
+
+.card-left h2 {
+    text-decoration: underline;
+}
+
+.card-left span {
+    color: #7d0000;
+}
+
+
+.order-button-cont {
+   
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options h3 {
+    text-decoration: underline;
+}
+
+.options li {
+    color: #7d0000;
+}
+
+.location-hours {
+    margin-top: 5px;
+}
+
+.location-hours h3 {
+    text-decoration: underline;
+}
+
+.location-hours ul {
+    list-style: none;
+    padding: 0;
+    color: #7d0000;
+}
+

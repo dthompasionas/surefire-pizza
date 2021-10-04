@@ -1,9 +1,10 @@
 import React from 'react';
 import '../Info/Info.css';
-import BrickOven from '../../assets/brick-oven.jpg'
-import PizzaCooking from '../../assets/pizza-cooking.jpg'
-import Restaraunt from '../../assets/restaraunt.jpg'
-import Tortellini from '../../assets/tortellini.jpg'
+import { HoursOrderButton, HoursContactButton } from './infoElements';
+import BrickOven from '../../assets/brick-oven.jpg';
+import PizzaCooking from '../../assets/pizza-cooking.jpg';
+import Restaraunt from '../../assets/restaraunt.jpg';
+import Tortellini from '../../assets/tortellini.jpg';
 
 const Info = () => {
 
@@ -22,8 +23,8 @@ const Info = () => {
                                     <p>Sunday: 12AM-9PM</p>
                                 </div>
                                 <div className='store-hours-btn'>
-                                    <button to='/contact' className='contact-btn'>Contact Us</button>
-                                    <button to='/menu' className='order-btn'>Order Now</button>
+                                    <HoursContactButton to='/contact' className='contact-btn'>Contact Us</HoursContactButton>
+                                    <HoursOrderButton to='/menu' className='order-btn'>Order Now</HoursOrderButton>
                                 </div>
                             </div>
                         </div>

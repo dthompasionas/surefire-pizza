@@ -29,9 +29,6 @@
 }
 
 
-
- 
-
 .right-side{
     flex-direction: column;
 }
@@ -39,6 +36,17 @@
 .info-slider {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .info-slider {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .left-side {
+        border-bottom: solid #7d0000 2px;
+    }
 }
 
 .carousel-inner {
@@ -89,7 +97,7 @@
     transition: 0.3s ease;
 }
 
-.order-btn {
+/* .order-btn {
     border: none;
     background: #7d0000;
     color: #fff;
@@ -103,7 +111,7 @@
     background: #fff;
     color: #7d0000;
     transition: 0.3s ease;
-}
+} */
 
 .right-side img {
     

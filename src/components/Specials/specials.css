@@ -13,6 +13,7 @@ body {
   position: relative;
 }
 
+
 .card-wrapper {
   position: relative;
   width: 100%;
@@ -170,4 +171,38 @@ body {
 
 .carousel .slick-prev {
   left: -55px;
+}
+
+@media screen and (max-width: 1024px) {
+  .car-cont {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .car-cont {
+    width: 88%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .carousel .slick-next {
+    visibility: hidden;
+  }
+
+  .carousel .slick-prev {
+    visibility: hidden;
+  }
+
+  .car-cont {
+    width: 100%;
+  }
 }

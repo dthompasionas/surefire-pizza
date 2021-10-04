@@ -29,10 +29,12 @@ export const MenuButtonContainer = styled.div`
     padding: 20px;
 `;
 
-export const MenuButton = styled.button`
+export const MenuButton = styled(LinkR)`
     border: none;
     width: 30%;
     padding: 10px;
+    text-align: center;
+    text-decoration: none;
     border-radius: 30px;
     background: #7d0000;
     color: #fff;
@@ -47,8 +49,8 @@ export const MenuButton = styled.button`
         
     }
 
-    @media screen and (max-width 960px) {
-        width: 20%;
+    @media screen and (max-width: 480px) {
+        width: 80%;
     }
 `;
 
