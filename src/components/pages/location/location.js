@@ -1,17 +1,22 @@
 import React from 'react';
 import { OrderButtonLocation, ContactButtonLocation } from './locationElements';
+import Map from '../../Map';
 import './location.css';
 
 const location = () => {
     return (
         <>
-            <div className='container locaton-sec'>     
+            <div className='container location-sec'>     
                 <div className='col-12 '>
+
+                    <div className="intro">
+                        <h2>Locations</h2>
+                    </div>
+
                     <div className='card location-card d-flex justify-content-center'>
                         <div className='row card-info-location'>
                             <div className='col-sm-12 col-md-4 card-map'>
-                                <h2>Map</h2>
-                                <p>hello everyone</p>
+                                <Map/>
                             </div>
 
                             <div className='col-sm-12 col-md-4 card-left'>
