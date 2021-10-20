@@ -32,7 +32,7 @@ contact me below
 
 # Screenshot:
 
-![](../src/assets/web-screenshot.png)
+![](./src/assets/web-screenshot.png)
 
 # Questions
 Contact me with any questions here:
