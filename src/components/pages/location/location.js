@@ -1,6 +1,6 @@
 import React from 'react';
 import { OrderButtonLocation, ContactButtonLocation } from './locationElements';
-import Map from '../../Map';
+import Gmap from './Gmap';
 import './location.css';
 
 const location = () => {
@@ -16,7 +16,7 @@ const location = () => {
                     <div className='card location-card d-flex justify-content-center'>
                         <div className='row card-info-location'>
                             <div className='col-sm-12 col-md-4 card-map'>
-                                <Map/>
+                                <Gmap/>
                             </div>
 
                             <div className='col-sm-12 col-md-4 card-left'>

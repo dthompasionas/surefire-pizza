@@ -1,65 +1,75 @@
 import React from "react";
-import Item from "./Item";
+import Product from "./Product";
 import "./menu.css";
-import nymenu from '../../../assets/ny-menu.png';
-import chicago from '../../../assets/chicago.png';
-import sausage from '../../../assets/sausage.png';
-import garlic from '../../../assets/garlic-bread.png';
-import spaghetti from '../../../assets/spaghetti-menu.png';
-import nachos from '../../../assets/nachos-menu.png';
 
-const menu = () => {
+// import Cart from "./Cart";
+// import data from "../../../data";
+// import nymenu from "../../../assets/ny-menu.png";
+// import chicago from "../../../assets/chicago.png";
+// import sausage from "../../../assets/sausage.png";
+// import garlic from "../../../assets/garlic-bread.png";
+// import spaghetti from "../../../assets/spaghetti-menu.png";
+// import nachos from "../../../assets/nachos-menu.png";
+
+export default function Menu (props) {
+  const {products, onAdd } = props ;
+
   return (
-    <section className='features-boxed'>
+    <section className="features-boxed">
       <div className="container product">
         <div className="intro">
-            <h2>Menu</h2>
+          <h2>Menu</h2>
         </div>
-          
-        
 
         <div className="row justify-content-center features">
-          <Item
-            name="New York Style Pie"
-            desc="Tasty New York style pizza with your choice of topping."
-            price={12.50}
-            img={nymenu}
+          {products.map((product) => (
+            <Product key={product.id} product={product}></Product>
+          ))}
+
+          {/* <Product 
+            id='1'
+            productItems={productItems}
+            onAdd={onAdd}
+            
           />
-          <Item
-            name="Chicago Style"
-            desc="Tasty Chicago style pizza with your choice of topping."
-            price={13.75}
-            img={chicago}
+          <Product 
+            id='2'
+            productItems={productItems}
+            onAdd={onAdd}
+           
           />
-          <Item
-            name="Pepperoni Sausage"
-            desc="Pepperoni and sausage. what else is there to say?!"
-            price={13.50}
-            img={sausage}
+          <Product 
+            id='3'
+            productItems={productItems}
+            onAdd={onAdd}
+            
           />
-          <Item
-            name="Garlic Bread pepperoni"
-            desc="Try our new garlic bread dough with pepperoni and banana peppers"
-            price={14.50}
-            img={garlic}
+          <Product 
+            id='4'
+            productItems={productItems}
+            onAdd={onAdd}
+           
           />
-          <Item
-            name="Spaghetti"
-            desc="Tasty spaghetti noodles with homemade meat sauce."
-            price={10.99}
-            img={spaghetti}
+          <Product 
+            id='5'
+            productItems={productItems}
+            onAdd={onAdd}
+           
           />
-          <Item
-            name="Zesty Nachos"
-            desc="Tortilla chips with the works. Don't worry there's enough to share."
-            price={12.50}
-            img={nachos}
-          />
-          
+          <Product
+            id='6'
+            productItems={productItems}
+            onAdd={onAdd}
+           
+          /> */}
         </div>
+
+        {/* <div className="col-sm-12 col-md-8">
+          <Cart onAdd={onAdd} cartItems={cartItems} />
+        </div> */}
       </div>
     </section>
   );
 };
 
-export default menu;
+// export default Menu;
